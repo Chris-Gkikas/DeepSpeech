@@ -149,3 +149,5 @@ if __name__ == '__main__':
     tf.app.flags.DEFINE_float('outlier_duration_ms', 10000, 'Duration in ms after which samples are considered outliers')
     tf.app.flags.DEFINE_integer('outlier_batch_size', 1, 'Batch size for duration outliers (defaults to 1)')
     tf.app.run(main)
+
+
